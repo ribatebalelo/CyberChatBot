@@ -10,7 +10,7 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Main Chat Window
 > Features the TASKS, QUIZ and LOG buttons in the header, quick-topic buttons, and the chat interface. The status bar confirms the SQL Server LocalDB connection.
@@ -43,28 +43,28 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 - **Follow-up tips** — type "tell me more" to get additional tips on the current topic
 - **Greeting audio** — plays `greeting.wav` on startup
 
-### 📋 Part 3 — Task Assistant
+### Part 3 — Task Assistant
 - Add cybersecurity tasks with title, description and optional reminder date
 - View all tasks in a dedicated Task Manager window (ListView)
 - Mark tasks as completed or delete them
 - Due reminders fire automatically as chat bubbles
 - All tasks persisted to **SQL Server LocalDB** — survives app restarts
 
-### 🎮 Part 3 — Cybersecurity Quiz
+### Part 3 — Cybersecurity Quiz
 - **12 questions** in the bank (8 multiple choice + 4 true/false)
 - **10 random questions** served per game
 - Immediate feedback after every answer with explanation
 - Score tracking with motivational final message
 - Dedicated popup quiz window with clickable answer buttons
 
-### 🧠 Part 3 — NLP Simulation
+### Part 3 — NLP Simulation
 - Understands many natural phrasings of the same command
 - `"add task - Enable 2FA"` / `"create task: Enable 2FA"` / `"new task Enable 2FA"` — all work
 - `"remind me in 7 days to update my password"` — parsed automatically
 - `"complete task 1"` / `"mark task 1 done"` / `"task 1 done"` — all work
 - Auto-generates task descriptions from common keywords (2FA, password, backup, VPN...)
 
-### 📜 Part 3 — Activity Log
+### Part 3 — Activity Log
 - Records every significant action with timestamp and category
 - Categories: `Session`, `Tasks`, `Reminder`, `Quiz`, `NLP`, `Sentiment`, `Memory`, `Log`
 - View via the **📜 LOG** button or by typing `"show activity log"`
@@ -72,7 +72,7 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 CyberBot/
@@ -206,22 +206,7 @@ Click 🎮 QUIZ button
 
 ---
 
-## 🔄 CI/CD — GitHub Actions
-
-Every push to `master` automatically builds the project.
-
-The workflow (`.github/workflows/build.yml`):
-1. Checks out the code on a `windows-latest` runner
-2. Sets up MSBuild
-3. Restores and builds `CyberBot.sln` in Release mode
-4. Uploads `bin\Release\` as a downloadable artifact
-
-To download the compiled build:
-**GitHub → Actions → Latest run → Artifacts → CyberBot-Build**
-
----
-
-## 🏫 Academic Information
+## Academic Information
 
 | Detail | Value |
 |--------|-------|
@@ -234,13 +219,13 @@ To download the compiled build:
 
 ---
 
-## 📝 License
+## License
 
 This project was created for academic purposes.
 
 ---
 
-## 📚 References
+## References
 
 Alshaikh, M., Maynard, S.B., Ahmad, A. and Chang, S. (2018) 'Information security policy compliance: A systematic mapping and review', *Australasian Journal of Information Systems*, 22, pp. 1–24. Available at: https://doi.org/10.3127/ajis.v22i0.1395 (Accessed: 25 June 2026).
 
