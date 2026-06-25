@@ -15,30 +15,9 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 > Main chat window with header action buttons
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  CYBERSECURITY AWARENESS CHATBOT          [📋 TASKS]  [🎮 QUIZ]  [📜 LOG]   │
-│  Keyword recognition • Sentiment detection • Memory • Task assistant • Quiz  │
-│  ● SECURE SESSION                                                            │
-├──────────────────────────────────────────────────────────────────────────────┤
-│  Quick: [password] [phishing] [scam] [privacy] [malware] [ransomware] ...   │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  🤖 CYBER-BOT                                                                │
-│  ──────────────────────────────────────────────────────                      │
-│  Welcome! I am CYBER-BOT, your cybersecurity advisor.                        │
-│  Use the 📋 TASKS button to manage tasks, 🎮 QUIZ to                         │
-│  test your knowledge, and 📜 LOG to view activity.                           │
-│                                                                              │
-│                                                          YOU  👤             │
-│                                              ─────────────────────────────  │
-│                                              What is phishing?               │
-│                                                                              │
-├──────────────────────────────────────────────────────────────────────────────┤
-│  Type your message here...                                      [ SEND ► ]  │
-├──────────────────────────────────────────────────────────────────────────────┤
-│  DB: SQL Server LocalDB connected                      13:45:22 | 25 Jun 2026│
-└──────────────────────────────────────────────────────────────────────────────┘
+
 ```
+![Uploading image.png…]()
 
 ---
 
