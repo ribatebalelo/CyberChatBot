@@ -1,6 +1,5 @@
 # 🛡️ Cybersecurity Awareness Chatbot — Part 3
 
-![Build Status](https://github.com/YOUR_USERNAME/CyberBot/actions/workflows/build.yml/badge.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Framework](https://img.shields.io/badge/.NET%20Framework-4.8-purple)
 ![Language](https://img.shields.io/badge/language-C%23-green)
