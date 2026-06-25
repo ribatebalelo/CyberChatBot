@@ -12,12 +12,24 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 
 ## 📸 Screenshots
 
-> Main chat window with header action buttons
+### Main Chat Window
+> Features the TASKS, QUIZ and LOG buttons in the header, quick-topic buttons, and the chat interface. The status bar confirms the SQL Server LocalDB connection.
 
-```
+![Main Chat Window](screenshots/main_window.png)
 
-```
-![Uploading image.png…]()
+---
+
+### 📋 Task Manager
+> Dedicated task manager popup — add tasks with an optional reminder date, view all tasks in a list, and mark them complete or delete them. Tasks are saved to SQL Server LocalDB.
+
+![Task Manager](screenshots/task_manager.png)
+
+---
+
+### 🎮 Cybersecurity Quiz
+> 10-question quiz with multiple-choice and True/False questions. Immediate feedback shown after each answer with an explanation. Progress bar tracks current question.
+
+![Cybersecurity Quiz](screenshots/quiz.png)
 
 ---
 
@@ -225,3 +237,47 @@ To download the compiled build:
 ## 📝 License
 
 This project was created for academic purposes.
+
+---
+
+## 📚 References
+
+Alshaikh, M., Maynard, S.B., Ahmad, A. and Chang, S. (2018) 'Information security policy compliance: A systematic mapping and review', *Australasian Journal of Information Systems*, 22, pp. 1–24. Available at: https://doi.org/10.3127/ajis.v22i0.1395 (Accessed: 25 June 2026).
+
+Anti-Phishing Working Group (APWG) (2023) *Phishing activity trends report: 4th quarter 2022*. Available at: https://apwg.org/trendsreports/ (Accessed: 25 June 2026).
+
+Cialdini, R.B. (2021) *Influence: The psychology of persuasion*. Revised edn. New York: Harper Business.
+
+Furnell, S. and Clarke, N. (2012) 'Power to the people? The evolving recognition of human aspects of security', *Computers and Security*, 31(8), pp. 983–988. Available at: https://doi.org/10.1016/j.cose.2012.08.004 (Accessed: 25 June 2026).
+
+GitHub (2024) *GitHub Actions documentation*. Available at: https://docs.github.com/en/actions (Accessed: 25 June 2026).
+
+Hunt, T. (2024) *Have I Been Pwned: Check if your email has been compromised in a data breach*. Available at: https://haveibeenpwned.com (Accessed: 25 June 2026).
+
+Microsoft (2022) *System.Data.SqlClient namespace*. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient (Accessed: 25 June 2026).
+
+Microsoft (2023a) *SQL Server Express LocalDB*. Available at: https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb (Accessed: 25 June 2026).
+
+Microsoft (2023b) *Windows Forms overview (.NET Framework)*. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/winforms/overview (Accessed: 25 June 2026).
+
+Microsoft (2024a) *MSBuild reference*. Available at: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-reference (Accessed: 25 June 2026).
+
+Microsoft (2024b) *C# language reference*. Available at: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/ (Accessed: 25 June 2026).
+
+Microsoft (2024c) *System.Text.RegularExpressions namespace*. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions (Accessed: 25 June 2026).
+
+National Institute of Standards and Technology (NIST) (2023) *Cybersecurity framework version 2.0*. Gaithersburg, MD: NIST. Available at: https://doi.org/10.6028/NIST.CSWP.29 (Accessed: 25 June 2026).
+
+Proofpoint (2023) *2023 state of the phish report*. Available at: https://www.proofpoint.com/us/resources/threat-reports/state-of-phish (Accessed: 25 June 2026).
+
+Salahdine, F. and Kaabouch, N. (2019) 'Social engineering attacks: A survey', *Future Internet*, 11(4), p. 89. Available at: https://doi.org/10.3390/fi11040089 (Accessed: 25 June 2026).
+
+Stallings, W. and Brown, L. (2018) *Computer security: Principles and practice*. 4th edn. Harlow: Pearson Education.
+
+Symantec (2023) *Internet security threat report*. Available at: https://www.broadcom.com/support/security-center (Accessed: 25 June 2026).
+
+Verizon (2023) *2023 data breach investigations report*. Available at: https://www.verizon.com/business/resources/reports/dbir/ (Accessed: 25 June 2026).
+
+Von Solms, R. and Van Niekerk, J. (2013) 'From information security to cyber security', *Computers and Security*, 38, pp. 97–102. Available at: https://doi.org/10.1016/j.cose.2013.04.004 (Accessed: 25 June 2026).
+
+Whitman, M.E. and Mattord, H.J. (2021) *Principles of information security*. 6th edn. Boston: Cengage Learning.
