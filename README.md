@@ -22,14 +22,16 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 ### 📋 Task Manager
 > Dedicated task manager popup — add tasks with an optional reminder date, view all tasks in a list, and mark them complete or delete them. Tasks are saved to SQL Server LocalDB.
 
-![Task Manager](screenshots/task_manager.png)
+<img width="990" height="689" alt="Screenshot 2026-06-25 174215" src="https://github.com/user-attachments/assets/03758517-87ea-424f-9e09-e738957bb57a" />
+
 
 ---
 
 ### 🎮 Cybersecurity Quiz
 > 10-question quiz with multiple-choice and True/False questions. Immediate feedback shown after each answer with an explanation. Progress bar tracks current question.
 
-![Cybersecurity Quiz](screenshots/quiz.png)
+<img width="985" height="691" alt="Screenshot 2026-06-25 174342" src="https://github.com/user-attachments/assets/4b862116-9865-4dee-9c0d-a046469dd2df" />
+
 
 ---
 
