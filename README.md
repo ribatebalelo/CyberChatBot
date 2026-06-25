@@ -14,7 +14,8 @@ A Windows Forms cybersecurity awareness chatbot built in C# (.NET Framework 4.8)
 ### Main Chat Window
 > Features the TASKS, QUIZ and LOG buttons in the header, quick-topic buttons, and the chat interface. The status bar confirms the SQL Server LocalDB connection.
 
-![Main Chat Window](screenshots/main_window.png)
+<img width="986" height="695" alt="Screenshot 2026-06-25 173902" src="https://github.com/user-attachments/assets/a7bdffeb-ea0a-491f-84ac-f9e8ef0973ac" />
+
 
 ---
 
