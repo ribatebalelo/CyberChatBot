@@ -1,0 +1,30 @@
+name: CyberBot CI Build
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore
+        run: msbuild CyberBot.csproj /t:Restore /p:Configuration=Release
+
+      - name: Build
+        run: msbuild CyberBot.csproj /t:Build /p:Configuration=Release /p:Platform="Any CPU"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CyberBot-Build
+          path: bin\Release\
